@@ -9,4 +9,8 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 }
